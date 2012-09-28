@@ -34,7 +34,7 @@ nav ul:after {
 
 nav li a {
 	display: block;
-	padding: 10px 50px;
+	padding: 10px 20px;
 	border-left: 1px solid #999;
 	border-right: 1px solid #222;
 	color: #eee;
@@ -62,7 +62,6 @@ nav a span {
 
 nav ul ul {
 	display: none;
-	width: 100%;
 	position: absolute;
 	left: 0;
 	background: #6a6a6a;

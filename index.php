@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<header>
-			<h4>Header</h4>
+			<img alt="Picture of me" src="img/caindaddysleepin.jpeg">
 		</header>
 		<?include_once 'nav/nav.php';?>
 		<!-- <section></section>

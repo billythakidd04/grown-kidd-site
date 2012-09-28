@@ -13,7 +13,6 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<nav id="topNav" class="no-js">
-	<nobr>
 		<ul>
 			<li><a href="index.php" title="Home">Home</a></li>
 			<li><a href="#" title="Projects">Projects</a>
@@ -31,11 +30,10 @@
 			<li><a href="#" title="About Me">About Me</a>
 				<ul>
 					<li><a href="" title="Resume">Resume</a></li>
-					<li class="last"><a href="" title="GitHub">GitHub</a></li>
+					<li class="last"><a href="https://github.com/billythakidd04" title="GitHub">GitHub</a></li>
 				</ul>
 			</li>
 		</ul>
-		</nobr>
 	</nav>
 	<script src="nav/js/jquery-1.8.1.js"></script>
 	<script src="nav/js/modernizr.custom.69568.js"></script>
