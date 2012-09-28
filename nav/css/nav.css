@@ -10,7 +10,7 @@ nav {
 	border: 1px solid #222;
 	position: relative;
 	background-color: #6a6a6a;
-	font: 14px Tahoma, Sans-serif;
+	font: 16px Tahoma, Sans-serif;
 }
 
 nav ul {
@@ -34,7 +34,7 @@ nav ul:after {
 
 nav li a {
 	display: block;
-	padding: 10px 20px;
+	padding: 10px 50px;
 	border-left: 1px solid #999;
 	border-right: 1px solid #222;
 	color: #eee;
@@ -84,12 +84,12 @@ nav ul ul a:hover {
 }
 
 /* CSS3 */
-/* nav {
+nav {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px; 
 }
-*/
+
 nav {
 	background-image: -moz-linear-gradient(0% 22px 90deg, #222, #999);
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 70%, from(#003366), to(#3366CC));
