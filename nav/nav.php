@@ -21,16 +21,18 @@
 					<li class="last"><a href="" title="Work Projects">Work Projects</a></li>
 				</ul>
 			</li>
-			<li><a href="" title="Contact Me">Contact Me</a>
+			<li><a href="contactme.php" title="Contact Me">Contact Me</a>
 				<ul>
-					<li><a href="" title="FaceBook">FaceBook</a></li>
-					<li class="last"><a href="" title="Google Plus">Google +</a></li>
+					<li><a href="http://www.facebook.com/BillyThaKidd" target="new" title="FaceBook">FaceBook</a></li>
+					<li><a href="" target="new" title="Google Plus">Google +</a></li>
+					<li><a href="" target="new" title="LinkedIn">LinkedIn</a></li>
+					<li class="last"><a href="" title="Email Me">Email Me</a></li>
 				</ul>
 			</li>
 			<li><a href="#" title="About Me">About Me</a>
 				<ul>
 					<li><a href="" title="Resume">Resume</a></li>
-					<li class="last"><a href="https://github.com/billythakidd04" title="GitHub">GitHub</a></li>
+					<li class="last"><a target="new" href="https://github.com/billythakidd04" title="GitHub">GitHub</a></li>
 				</ul>
 			</li>
 		</ul>
