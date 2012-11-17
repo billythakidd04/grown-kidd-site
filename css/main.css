@@ -2,11 +2,13 @@
 body
 {
 	background: silver;
+	text-align: center;
 }
 
 header
 {
 	background: black;
+	text-align: left;
 }
 
 header img
@@ -15,6 +17,43 @@ header img
 	margin-top: 5px;
 	width: 150px;
 	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	border-radius: 10px;
+}
+
+section
+{
+	padding: 5px;
+	background: black;
+}
+
+aside
+{
+	color: red;
+	background: black;
+	position: relative;
+	display: block;
+	width: 25%;
+	text-align: left;
+}
+
+aside.left
+{
+	float: left;
+}
+
+aside.right
+{
+	float: right;
+}
+
+footer
+{
+	background: black;
+	color: green;
+}
+
+.undercon
+{
+	color: yellow;
+	font-weight: bold;
 }
