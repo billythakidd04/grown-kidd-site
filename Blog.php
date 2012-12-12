@@ -1,4 +1,11 @@
 <?php
+
+include_once 'system/database.php';
+/**
+ * @todo revisit images
+ * @author ThaKidd
+ *
+ */
 class Blog
 {
 	private $id;
@@ -10,12 +17,12 @@ class Blog
 	private $keywords;//array of describing keywords
 
 	//contructor
-	function __construct($_title, $_bodyText, $_images, $_keywords)
+	function __construct($_blogData)
 	{
-		$this->setTitle($_title);
-		$this->setBodyText($_bodyText);
-		$this->setImages($_images);
-		$this->setKeywords($_keywords);
+		$this->setTitle($_blogData['title']);
+		$this->setBodyText($_blogData['bodyText']);
+		//$this->setImages($_blogData['images']);
+		$this->setKeywords($_blogData['keywords']);
 		$this->createdDate = date('Y-m-d H:i:s');
 	}
 
@@ -45,6 +52,30 @@ class Blog
 	}
 
 	//GETS
+	/**
+	 * Returns id of this entry
+	 * @return int $id
+	 */
+	public function getID()
+	{
+		return $this->id;
+	}
+	/**
+	 * Returns title of this entry
+	 * @return string $title
+	 */
+	public function getTitle()
+	{
+		return $this->title;
+	}
+	/**
+	 * Returns body of this entry
+	 * @return string $body
+	 */
+	public function getBodyText()
+	{
+		return $this->bodyText;
+	}
 	/**
 	 * Returns the array of keywords associated with this blog entry
 	 * @return array $keywords
@@ -125,7 +156,7 @@ class Blog
 		$blogList = $dbCon->query("select * from blog");
 		while($aBlog = $blogList->fetch_assoc())
 		{
-			$blogs[] = $aBlog;
+			$blogs[] = new Blog($aBlog);
 		}
 
 		return $blogs;

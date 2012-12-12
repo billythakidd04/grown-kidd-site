@@ -29,8 +29,9 @@
 					<li class="last"><a href="" title="Email Me">Email Me</a></li>
 				</ul>
 			</li>
-			<li><a href="#" title="About Me">About Me</a>
+			<li><a href="/pages/viewblog.php" title="About Me">About Me</a>
 				<ul>
+					<li><a href="/pages/viewblog.php">Blog</a></li>
 					<li><a href="" title="Resume">Resume</a></li>
 					<li class="last"><a target="new" href="https://github.com/billythakidd04" title="GitHub">GitHub</a></li>
 				</ul>
