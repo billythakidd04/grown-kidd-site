@@ -19,6 +19,7 @@ class Blog
 	//contructor
 	function __construct($_blogData)
 	{
+		$this->setID((isset($_blogData['id'])?$_blogData['id']:''));
 		$this->setTitle($_blogData['title']);
 		$this->setBodyText($_blogData['bodyText']);
 		//$this->setImages($_blogData['images']);
@@ -104,6 +105,14 @@ class Blog
 	}
 
 	//SETS
+	/**
+	 * Set the id of the blog in the object
+	 * @param int $id
+	 */
+	public function setID($id)
+	{
+		$this->id = $id;
+	}
 	/**
 	 * Set title of blog entry
 	 * @param string $str

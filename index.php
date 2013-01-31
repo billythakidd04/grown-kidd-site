@@ -36,6 +36,8 @@
 			Send me some love at <a href="mailto:billythakidd04@gmail.com">BillyThaKidd04@gmail.com</a><br/>
 			Or find me at:<br/>
 			<div class="g-plus" data-href="https://plus.google.com/109325835178774768962?prsrc=3" data-theme="dark" rel="author"></div>
+			<a href="https://twitter.com/ThaKidd04" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ThaKidd04</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</footer>
 	</body>
 </html>
