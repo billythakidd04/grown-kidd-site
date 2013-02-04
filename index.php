@@ -17,21 +17,19 @@
 	<body>
 		<header>
 			<img alt="Picture of me and Cian" src="img/caindaddysleepin.jpeg" title="Cian and Daddy">
+			<?include_once 'nav/nav.php';?>
 		</header>
-		<?include_once 'nav/nav.php';?>
-		<section>
-			<aside class="left">No idea what to put here. how about you fill out the form and tell me?</aside>
-			<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFVkN0EwWVJLUTlqeVVPR3RwM3ZRRFE6MQ" width="760" height="1025">Loading...</iframe>
-			<aside class="right">
-				Recent News/Updates:<br/>
-				<span class="undercon">This will be updated soon with links and maybe a blog.</span>
-				<ul>
-					<li>Cian</li>
-					<li>Work</li>
-					<li>Family</li>
-				</ul>
-			</aside>
-		</section>
+		<aside class="left"><p>No idea what to put here. how about you fill out the form <a href="pages/sitepage.php" target="new">here</a> and tell me?</p></aside>
+
+		<aside class="right">
+			Recent News/Updates:<br/>
+			<span class="undercon">This will be updated soon with links and maybe a blog.</span>
+			<ul>
+				<li>Cian</li>
+				<li>Work</li>
+				<li>Family</li>
+			</ul>
+		</aside>
 		<footer>
 			Send me some love at <a href="mailto:billythakidd04@gmail.com">BillyThaKidd04@gmail.com</a><br/>
 			Or find me at:<br/>

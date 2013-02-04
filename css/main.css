@@ -20,6 +20,16 @@ header img
 	border-radius: 10px;
 }
 
+nav
+{
+	z-index: 1;
+}
+
+:not nav
+{
+	z-index: 0;
+}
+
 section
 {
 	padding: 5px;

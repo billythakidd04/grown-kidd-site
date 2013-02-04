@@ -18,7 +18,8 @@
 			<li><a href="#" title="Projects">Projects</a>
 				<ul>
 					<li><a href="" title="Personal Projects">Personal Projects</a></li>
-					<li class="last"><a href="" title="Work Projects">Work Projects</a></li>
+					<li><a href="" title="Work Projects">Work Projects</a></li>
+					<li class="last"><a href="pages/sitepage.php" target="new" title="About this site">This Site</a></li>
 				</ul>
 			</li>
 			<li><a href="contactme.php" title="Contact Me">Contact Me</a>
@@ -38,7 +39,6 @@
 			</li>
 		</ul>
 	</nav>
-	<script src="nav/js/jquery-1.8.1.js"></script>
 	<script src="nav/js/modernizr.custom.69568.js"></script>
 	<script>
 		(function($)
