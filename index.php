@@ -19,17 +19,19 @@
 			<img alt="Picture of me and Cian" src="img/caindaddysleepin.jpeg" title="Cian and Daddy">
 			<?include_once 'nav/nav.php';?>
 		</header>
-		<aside class="left"><p>No idea what to put here. how about you fill out the form <a href="pages/sitepage.php" target="new">here</a> and tell me?</p></aside>
-
-		<aside class="right">
-			Recent News/Updates:<br/>
-			<span class="undercon">This will be updated soon with links and maybe a blog.</span>
-			<ul>
-				<li>Cian</li>
-				<li>Work</li>
-				<li>Family</li>
-			</ul>
-		</aside>
+		<div id="container">
+			<aside class="left"><p>No idea what to put here. how about you fill out the form <a href="pages/sitepage.php" target="new">here</a> and tell me?</p></aside>
+			<div id="mainContent">Test</div>
+			<aside class="right">
+				Recent News/Updates:<br/>
+				<span class="undercon">This will be updated soon with links and maybe a <a href="pages/viewblog.php">blog</a>.</span>
+				<ul>
+					<li>Cian</li>
+					<li>Work</li>
+					<li>Family</li>
+				</ul>
+			</aside>
+		</div>
 		<footer>
 			Send me some love at <a href="mailto:billythakidd04@gmail.com">BillyThaKidd04@gmail.com</a><br/>
 			Or find me at:<br/>

@@ -56,6 +56,18 @@ aside.right
 	float: right;
 }
 
+#mainContent
+{
+	padding: 20px;
+}
+
+#container
+{
+	color: white;
+	background: black;
+	height: 1050px;
+}
+
 footer
 {
 	background: black;
