@@ -21,7 +21,7 @@
 		</header>
 		<div id="container">
 			<aside class="left"><p>No idea what to put here. how about you fill out the form <a href="pages/sitepage.php" target="new">here</a> and tell me?</p></aside>
-			<div id="mainContent">Test</div>
+			<div id="mainContent">Put aggregated RSS/FB feed here?</div>
 			<aside class="right">
 				Recent News/Updates:<br/>
 				<span class="undercon">This will be updated soon with links and maybe a <a href="pages/viewblog.php">blog</a>.</span>
@@ -37,7 +37,7 @@
 			Or find me at:<br/>
 			<div class="g-plus" data-href="https://plus.google.com/109325835178774768962?prsrc=3" data-theme="dark" rel="author"></div>
 			<a href="https://twitter.com/ThaKidd04" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ThaKidd04</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</footer>
 	</body>
 </html>
