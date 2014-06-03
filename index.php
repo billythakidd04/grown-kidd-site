@@ -28,7 +28,7 @@
 				 but neither really offer any help
 				 (nor could they) in my largest hurdle. <strong>I need enterprise experience.</strong>
 				 That being what it is, I've done a few projects on the side, which I will add to the projects list later. 
-				 A buddy of mine owns <a href="/viciouscvapors">Vicious Vapors</a> in Niagara Falls, 
+				 A buddy of mine owns <a href="/viciousvapors">Vicious Vapors</a> in Niagara Falls, 
 				 so I helped him with his site as well as the Eggertsville/Grand Island Mason Lodge #1138 which I will be starting on very very soon.
 				</p>
 			</article>
