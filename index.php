@@ -23,7 +23,14 @@
 		<section>
 			<header>Current Projects:</header>
 			<article>
-				<p>Since the elections project at TBN I have been spending most of my time, outside of kids and family, trying to up my skill set. <a href="www.codeacademy.com">Code Academy</a> &amp; <a href="www.codeschool.com">Code School</a> have both been awesome resources but neither really offer any help (nor could they) in my largest hurdle. <strong>I need enterprise experience.</strong></p>
+				<p>Since the elections project at TBN I have been spending most of my time, outside of kids and family, trying to up my skill set.
+				 <a href="www.codeacademy.com">Code Academy</a> &amp; <a href="www.codeschool.com">Code School</a> have both been awesome resources,
+				 but neither really offer any help
+				 (nor could they) in my largest hurdle. <strong>I need enterprise experience.</strong>
+				 That being what it is, I've done a few projects on the side, which I will add to the projects list later. 
+				 A buddy of mine owns <a href="/viciouscvapors">Vicious Vapors</a> in Niagara Falls, 
+				 so I helped him with his site as well as the Eggertsville/Grand Island Mason Lodge #1138 which I will be starting on very very soon.
+				</p>
 			</article>
 		</section>
 		<div id="container">
