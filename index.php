@@ -17,8 +17,15 @@
 	<body>
 		<header>
 			<img alt="Picture of me and Cian" src="img/caindaddysleepin.jpeg" title="Cian and Daddy">
-			<?include_once 'nav/nav.php';?>
+			<h1>Please ignore the mess, I'm redesigning on the fly...</h1>
+			<?php include_once 'nav/nav.php';?>
 		</header>
+		<section>
+			<header>Current Projects:</header>
+			<article>
+				<p>Since the elections project at TBN I have been spending most of my time, outside of kids and family, trying to up my skill set. <a href="www.codeacademy.com">Code Academy</a> &amp; <a href="www.codeschool.com">Code School</a> have both been awesome resources but neither really offer any help (nor could they) in my largest hurdle. <strong>I need enterprise experience.</strong></p>
+			</article>
+		</section>
 		<div id="container">
 			<aside class="left"><p>No idea what to put here. how about you fill out the form <a href="pages/sitepage.php" target="new">here</a> and tell me?</p></aside>
 			<div id="mainContent">Put aggregated RSS/FB feed here?</div>
