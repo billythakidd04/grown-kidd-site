@@ -3,12 +3,22 @@ body
 {
 	background: silver;
 	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	color: white;
+	font-family: sans-serif;
 }
 
 header
 {
 	background: black;
 	text-align: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+header h1
+{
+	display: inline;
 }
 
 header img
@@ -54,6 +64,19 @@ aside.left
 aside.right
 {
 	float: right;
+}
+
+#mainContent
+{
+	padding: 20px;
+}
+
+#container
+{
+	color: white;
+	background: black;
+	height: 1050px;
+	padding: 10px;
 }
 
 footer
